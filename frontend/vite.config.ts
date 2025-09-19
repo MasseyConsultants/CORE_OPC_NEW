@@ -22,14 +22,13 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          three: ['three', '@react-three/fiber', '@react-three/drei'],
           router: ['react-router-dom'],
         },
       },
     },
   },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'three', '@react-three/fiber', '@react-three/drei'],
+    include: ['react', 'react-dom'],
   },
   define: {
     global: 'globalThis',

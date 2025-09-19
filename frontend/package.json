@@ -14,19 +14,18 @@
     "lint:fix": "eslint . --ext ts,tsx --fix"
   },
   "dependencies": {
+    "axios": "^1.6.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.28.1",
-    "three": "0.145.0",
-    "@react-three/fiber": "8.8.7",
-    "@react-three/drei": "9.32.4",
-    "axios": "^1.6.0",
     "zustand": "^4.4.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "14.2.1",
+    "@testing-library/user-event": "^14.0.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
-    "@types/three": "^0.145.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "@vitejs/plugin-react": "^4.3.0",
@@ -34,30 +33,25 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.0",
+    "jsdom": "^24.0.0",
+    "playwright": "1.40.1",
     "postcss": "^8.4.0",
     "tailwindcss": "3.4.17",
     "typescript": "5.6.3",
     "vite": "5.4.10",
-    "vitest": "1.6.0",
-    "@testing-library/react": "14.2.1",
-    "@testing-library/jest-dom": "^6.0.0",
-    "@testing-library/user-event": "^14.0.0",
-    "jsdom": "^24.0.0",
-    "playwright": "1.40.1"
+    "vitest": "1.6.0"
   },
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
   "keywords": [
-    "3d",
     "bin-packing",
     "shipping",
     "calculator",
     "logistics",
     "react",
-    "typescript",
-    "three.js"
+    "typescript"
   ],
   "author": "AIT World Wide Logistics",
   "license": "PROPRIETARY"
